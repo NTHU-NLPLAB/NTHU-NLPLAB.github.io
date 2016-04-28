@@ -26,7 +26,8 @@ $(function() {
         bkg_color = escapeHtml(member.bkg_color)
         intro = escapeHtml(member.intro)
         
-        ms_block +=  `<div class="thumbnail col-md-3 flipbox">
+        ms_block +=  `<div class="col-md-3">
+            <div class="thumbnail flipbox">
                 <div class="member-info front">
                     <img class="img-responsive member-img" src="` + img + `" alt="` + name + `">
                     <h2>` + name + `<br ><small>` + alias + `</small></h2>
@@ -38,7 +39,8 @@ $(function() {
                     <h1>` + name + `</h1>
                     <p>` + intro + `</p>
                 </div>
-            </div>`;
+            </div>
+        </div>`;
     }
     $('div.ms-students > div:first-child').append(ms_block);
 });
