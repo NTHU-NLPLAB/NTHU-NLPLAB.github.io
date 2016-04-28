@@ -19,15 +19,26 @@ $(function() {
     var ms_block = '';
     for( i in members['Master Students']) {
         member = members['Master Students'][i];
-        ms_block +=  `<div class="col-md-3 text-center">
-            <div class="thumbnail">
-                <img class="img-responsive" src="` + member.img + `" height="250" width="250" alt="` + member.name + `">
-                <div class="caption">
-                    <h4>` + member.name + `<br><small>` + member.alias + `</small></h4>
-                    <p>` + member.research + `</p>
+        name = escapeHtml(member.name)
+        alias = escapeHtml(member.alias)
+        img = escapeHtml(encodeURI(member.img))
+        research_area = escapeHtml(member.research)
+        bkg_color = escapeHtml(member.bkg_color)
+        intro = escapeHtml(member.intro)
+        
+        ms_block +=  `<div class="thumbnail col-md-3 flipbox">
+                <div class="member-info front">
+                    <img class="img-responsive member-img" src="` + img + `" alt="` + name + `">
+                    <h2>` + name + `<br ><small>` + alias + `</small></h2>
+                    <div class="caption">
+                        <p>` + research_area + `</p>
+                    </div>
                 </div>
-            </div>
-        </div>`;
+                <div class="member-info back" style="background-color:` + bkg_color + `;">
+                    <h1>` + name + `</h1>
+                    <p>` + intro + `</p>
+                </div>
+            </div>`;
     }
     $('div.ms-students > div:first-child').append(ms_block);
 });
