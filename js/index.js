@@ -44,3 +44,40 @@ $(function() {
     }
     $('div.ms-students > div:first-child').append(ms_block);
 });
+
+$(function() {
+    var und_block = '';
+    for( i in members['Undergraduates']) {
+        member = members['Undergraduates'][i];
+        und_block +=  `<div class="col-md-3 text-center">
+            <div class="thumbnail">
+                <div class="caption">
+                    <h4>` + member.name + `<br><small>` + member.alias + `</small></h4>
+                    <p>` + member.research + `</p>
+                </div>
+            </div>
+        </div>`;
+    }
+    $('div.undergrad > div:first-child').append(und_block);
+});
+
+$(function() {
+    var re_block = '';
+    for( i in research['Research']) {
+        re = research['Research'][i];
+        
+        re_block +=  `<div class="col-md-4">
+            <div class="research-item">
+                <span class="fa-stack fa-5x">
+                  <i class="fa ` + re.fa + ` text-primary"></i>
+                </span>
+                <h4><strong>` + re.name_chi + `</strong></h4>
+                <h4><strong>` + re.name_eng + `</strong></h4>
+                </div>
+            </div>`;
+        console.log(re_block)
+    }
+    $('div.research').append(re_block);
+});
+
+

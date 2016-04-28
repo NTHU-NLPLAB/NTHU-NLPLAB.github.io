@@ -39,7 +39,7 @@ var members = {
             research: '文法改錯',
             img: 'img/pengyu.jpg',
             bkg_color: '#CDCD00',
-            intro: '耍廢大師',
+            intro: '太極拳法掌門人',
         },
         {
             name: '黃婕雅',
@@ -47,7 +47,7 @@ var members = {
             research: '相似詞',
             img: 'img/jr.jpg',
             bkg_color: '#008B45',
-            intro: '只是你遲到一千年',
+            intro: '只是你遲到一千年！',
         },
         {
             name: '陳志杰',
@@ -63,12 +63,12 @@ var members = {
             research: '動詞偵錯與改錯',
             img: 'img/shanny.jpg',
             bkg_color: '#473C8B',
-            intro: '睡神，天天睡到中午還是很想睡',
+            intro: '看到我請提醒我記得收電源線（づ¯ ³ ¯）づ',
         },
         {
             name: '吳奇恩',
             alias: '87n',
-            research: '自然語言處理、同義詞研究',
+            research: '自然語言處理、同義詞',
             img: 'img/57n.jpg',
             bkg_color: '#141414',
             intro: '白痴',
@@ -82,5 +82,26 @@ var members = {
             intro: '呵呵呵',
         },
     ],
-    
+    'Undergraduates': [
+        {
+            name: '朱凰華',
+            alias: 'Garnix',
+            research: 'Email寫作輔助',
+        },
+        {
+            name: '徐芷琳',
+            alias: 'Chih-Lin',
+            research: 'Email寫作輔助',
+        },
+        {
+            name: '簡紹安',
+            alias: 'Shao-An',
+            research: '自然語言搜尋介面',
+        },
+        {
+            name: '蔡明勳',
+            alias: 'Frank',
+            research: '自然語言搜尋介面',
+        },
+    ],
 };
