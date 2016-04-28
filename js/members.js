@@ -19,11 +19,11 @@ var members = {
     'Master Students': [
         {
             name: '葉玫慈',
-            alias: 'Mei-Chi',
-            research: '相似詞',
+            alias: 'Mei-Cih',
+            research: 'Automatic Paraphrases Generation',
             img: 'img/meichi.jpg',
             bkg_color: '#DC143C',
-            intro: '碎碎念大嬸 - Mama Mama 別再唸我',
+            intro: 'Ukulele是人生的一半(\'A`)',
         },
         {
             name: '陳怡君',
@@ -44,7 +44,7 @@ var members = {
         {
             name: '黃婕雅',
             alias: 'jr',
-            research: '相似詞',
+            research: 'Automatic Paraphrases Generation',
             img: 'img/jr.jpg',
             bkg_color: '#008B45',
             intro: '只是你遲到一千年！',
