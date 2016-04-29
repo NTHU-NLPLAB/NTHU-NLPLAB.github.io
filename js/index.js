@@ -19,14 +19,15 @@ $(function() {
     var ms_block = '';
     for( i in members['Master Students']) {
         member = members['Master Students'][i];
-        name = escapeHtml(member.name)
-        alias = escapeHtml(member.alias)
-        img = escapeHtml(encodeURI(member.img))
-        research_area = escapeHtml(member.research)
-        bkg_color = escapeHtml(member.bkg_color)
-        intro = escapeHtml(member.intro)
+        name = escapeHtml(member.name);
+        alias = escapeHtml(member.alias);
+        img = escapeHtml(encodeURI(member.img));
+        research_area = escapeHtml(member.research);
+        bkg_color = escapeHtml(member.bkg_color);
+        intro = escapeHtml(member.intro);
+        link = (member.link) ? 'href="' + encodeURI(member.link) + '" target="_blank"': '';
         
-        ms_block +=  `<div class="col-md-3">
+        ms_block +=  `<a class="col-md-3" ` + link + `>
             <div class="thumbnail flipbox">
                 <div class="member-info front">
                     <img class="img-responsive member-img" src="` + img + `" alt="` + name + `">
@@ -40,7 +41,7 @@ $(function() {
                     <p>` + intro + `</p>
                 </div>
             </div>
-        </div>`;
+        </a>`;
     }
     $('div.ms-students > div:first-child').append(ms_block);
 });

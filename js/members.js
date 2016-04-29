@@ -24,6 +24,7 @@ var members = {
             img: 'img/meichi.jpg',
             bkg_color: '#DC143C',
             intro: '碎碎念大嬸 - Mama Mama 別再唸我',
+            link: 'https://youtu.be/z2Xsp0HMqf8',
         },
         {
             name: '陳怡君',
@@ -32,6 +33,7 @@ var members = {
             img: 'img/chun.jpg',
             bkg_color: '#EE7600',
             intro: '半夜睡不著覺，把心情哼成歌',
+            link: 'https://youtu.be/O9cvAQEzG0o',
         },
         {
             name: '陳鵬宇',
@@ -40,6 +42,7 @@ var members = {
             img: 'img/pengyu.jpg',
             bkg_color: '#CDCD00',
             intro: '太極拳法掌門人',
+            link: 'https://youtu.be/wr-6wwt8RXk',
         },
         {
             name: '黃婕雅',
@@ -48,6 +51,7 @@ var members = {
             img: 'img/jr.jpg',
             bkg_color: '#008B45',
             intro: '只是你遲到一千年！',
+            link: 'https://youtu.be/83TjxZWFXVI',
         },
         {
             name: '陳志杰',
@@ -55,7 +59,8 @@ var members = {
             research: '文法改錯、機器翻譯、同步樣式文法',
             img: 'img/jjc.jpg',
             bkg_color: '#36648B',
-            intro: 'NLP的胖虎，專門霸凌別人',
+            intro: '我是胖虎，我是孩子王',
+            link: 'https://youtu.be/Y-gGTPsLORY',
         },
         {
             name: '吳瑀瑄',
@@ -64,6 +69,7 @@ var members = {
             img: 'img/shanny.jpg',
             bkg_color: '#473C8B',
             intro: '看到我請提醒我記得收電源線（づ¯ ³ ¯）づ',
+            link: 'https://youtu.be/HhN3hv2CVbA',
         },
         {
             name: '吳奇恩',
@@ -72,6 +78,7 @@ var members = {
             img: 'img/57n.jpg',
             bkg_color: '#141414',
             intro: '白痴',
+            link: 'https://youtu.be/hgGFe4eJ0qc',
         },
         {
             name: '杜惟真',
@@ -80,6 +87,7 @@ var members = {
             img: 'img/jane.jpg',
             bkg_color: '#EEAD0E',
             intro: '呵呵呵',
+            link: 'https://youtu.be/7sbKm-hAlsw',
         },
     ],
     'Undergraduates': [
