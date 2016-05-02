@@ -75,8 +75,8 @@ var members = {
         },
         {
             name: '杜惟真',
-            alias: 'Jane呵呵',
-            research: '呵呵呵',
+            alias: 'Jane',
+            research: '自然語言處理',
             img: 'img/jane.jpg',
             bkg_color: '#EEAD0E',
             intro: '呵呵呵',
