@@ -76,10 +76,10 @@ var members = {
         {
             name: '杜惟真',
             alias: 'Jane',
-            research: '自然語言處理',
+            research: '英語檢定輔助系統、動詞型態改錯',
             img: 'img/jane.jpg',
             bkg_color: '#EEAD0E',
-            intro: '呵呵呵',
+            intro: '呵呵呵 好哦',
         },
     ],
     'Undergraduates': [
