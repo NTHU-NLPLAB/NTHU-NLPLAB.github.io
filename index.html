@@ -39,7 +39,12 @@
   <div class="container">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
-    </button>
+    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
     <a class="navbar-brand" href="#top">NLP Lab.</a>
     </div>
     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -117,17 +122,17 @@
           <h2>專案 | Projects</h2>
           <hr class="small">
           <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-4">
               <div class="project-item">
                 <a href="http://linggle.com/" target="_blank">
                   <img class="img-project img-responsive" src="img/linggle.png">
                 </a>
                 <br>
-                <p>Linggle是一個語言搜尋引擎。它提供使用者快速、便利且精準的英文慣用語以及搭配詞的檢索。</p>
+                <p>Linggle是一個語言搜尋引擎。它提供使用者快速且精準的英文慣用語以及搭配詞的檢索。</p>
                 <p>Linggle is a Web-scale linguistics search engine, that retrieves lexical bundles in response to a given query.</p>
               </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-4">
               <div class="project-item">
                 <a href="http://writeahead.nlpweb.org/" target="_blank">
                   <img class="img-project img-responsive" src="img/writeahead.png">
@@ -135,6 +140,16 @@
                 <br>
                 <p>WriteAhead是一個互動密集的英語寫作環境。它能在學習者寫作時提供即時提示，以幫助他們寫得既流暢又準確。</p>
                 <p>WriteAhead is a resource-rich, Interactive Writing Environment that provides English learners with writing prompts, as well as "get it right" advice, to helps them write fluently and accurately.</p>
+              </div>
+            </div> <!-- /.row (nested) -->
+            <div class="col-md-4">
+              <div class="project-item">
+                <a href="http://ironman.nlpweb.org:7040/" target="_blank">
+                  <img class="img-project img-responsive" src="img/rephraser.png">
+                </a>
+                <br>
+                <p>Rephraser2.0是一個幫助學習者增加句子豐富度的工具，替原本的句子重新包裝。</p>
+                <p>Rephraser2.0 is a paraphrasing tool, which helps English learners enrich their’s articles. The system paraphrases sentences, expressing the same ideas with different words.</p>
               </div>
             </div> <!-- /.row (nested) -->
           <!-- <a href="#" class="btn btn-dark">View More Items</a> -->
@@ -149,10 +164,10 @@
       <div class="row">
         <div class="col-lg-12">
           <h2 class="text-center">成員 | Members</h2>
-          <div class="col-lg-12"><h3 class="page-header">指導教授 | Advisor</h3></div>
+          <div class="col-lg-12"><h3 class="page-header">指導教授<small>Advisor</small></h3></div>
             <div class="row">
-              <div class="col-md-3 photo col-sm-6">
-                <img class="img-responsive" src="img/jason.jpg" alt="">
+              <div class="col-md-3 ol-sm-6">
+                <img class="img-responsive" src="img/jason.jpg" alt="Jason">
               </div>
               <div class="col-md-9 col-sm-6">
                 <h3>張俊盛 教授 <small>Prof. Jason S. Chang</small></h3>
@@ -170,41 +185,36 @@
             </div>
           <!-- Team Members -->
           <div class="row">
-            <div class="col-md-6">
-              <div class="col-lg-12">
-                <h3 class="page-header">博士生 | Ph.D. Student</h3>
+            <div class="col-lg-12">
+              <div class="col-md-3">
+                <h3 class="page-header">博士生<small>Ph.D. Student</small></h3>
+                <div class="thumbnail flipbox">
+                  <div class="member-info front">
+                    <img class="img-responsive" src="img/joanne.jpg" alt="Joanne">
+                    <h3>喬安娜<br ><small>Joanne Boisson</small></h3>
+                  </div>
+                </div>
               </div>
-              <div class="col-md-6 text-center">
-                <div class="thumbnail">
-                  <img class="img-responsive" src="img/joanne.jpg" height="250" width="250" alt="">
-                  <div class="caption">
-                    <h4>Joanne Boisson<br><small>喬安娜</small></h4>
+              <div class="col-md-3">
+                <h3 class="page-header">研究助理<small>Research Assistant</small></h3>
+                <div class="thumbnail flipbox">
+                  <div class="member-info front">
+                    <img class="img-responsive" src="img/henry.jpg" alt="Henry">
+                    <h3>彭晧鈞<br ><small>Henry</small></h3>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="col-md-6">
-              <div class="col-lg-12">
-                <h3 class="page-header">研究助理 | Research Assistant</h3>
-              </div>
-              <div class="col-md-6 text-center">
-                <div class="thumbnail">
-                  <img class="img-responsive" src="img/henry.jpg" height="250" width="250" alt="">
-                  <div class="caption">
-                    <h4>彭皓鈞<br><small>Henry</small></h4>
-                  </div>
-                </div>
-              </div>
-            </div>
+            
           </div>
           <div class="row ms-students">
             <div class="col-lg-12">
-              <h3 class="page-header">碩士生 | Master Students</h3>
+              <h3 class="page-header">碩士生<small>Master Students</small></h3>
             </div>
           </div>
           <div class="row undergrad">
             <div class="col-lg-12">
-              <h3 class="page-header">專題生 | Undergraduate Students</h3>
+              <h3 class="page-header">專題生<small>Undergraduate Students</small></h3>
             </div>
           </div>
         </div>
@@ -222,16 +232,18 @@
           <div class="row">
             <div class="col-md-6">
               <h3><small>地址</small></h3>
-              <p>臺灣新竹市光復路二段 101 號 清華大學</p>
+              <p>國立清華大學</p>
+              <p>臺灣新竹市光復路二段 101 號</p>
               <p>主持人辦公室：台達館 604</p>
               <p>研究生實驗室：台達館 708, 709, 646</p>
               <br>
             </div>
             <div class="col-md-6">
               <h3><small>Address</small></h3>
+              <p>National Tsing Hua University</p>
               <p>No. 101, Section 2, Kuang-Fu Road, Hsinchu, Taiwan 30013, R.O.C. </p>
-              <p>Delta Building 604</p>
-              <p>Delta Building 708, 709, 646</p>
+              <p>Advisor's Office: R604, Delta Building</p>
+              <p>Laboratories: R708, 709, 646, Delta Building </p>
             </div> <!-- /.row (nested) -->
           <!-- <a href="#" class="btn btn-dark">View More Items</a> -->
         </div> <!-- /.col-lg-10 -->

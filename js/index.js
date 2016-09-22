@@ -19,26 +19,30 @@ $(function() {
     var ms_block = '';
     for( i in members['Master Students']) {
         member = members['Master Students'][i];
-        name = escapeHtml(member.name)
-        alias = escapeHtml(member.alias)
-        img = escapeHtml(encodeURI(member.img))
-        research_area = escapeHtml(member.research)
-        bkg_color = escapeHtml(member.bkg_color)
-        intro = escapeHtml(member.intro)
+        name = escapeHtml(member.name);
+        alias = escapeHtml(member.alias);
+        img = escapeHtml(encodeURI(member.img));
+        research_area = escapeHtml(member.research);
+        bkg_color = escapeHtml(member.bkg_color);
+        intro = escapeHtml(member.intro);
+        link = (member.link) ? 'href="' + encodeURI(member.link) + '" target="_blank"': '';
         
-        ms_block +=  `<div class="thumbnail col-md-3 flipbox">
-                <div class="member-info front">
-                    <img class="img-responsive member-img" src="` + img + `" alt="` + name + `">
-                    <h2>` + name + `<br ><small>` + alias + `</small></h2>
-                    <div class="caption">
-                        <p>` + research_area + `</p>
-                    </div>
-                </div>
-                <div class="member-info back" style="background-color:` + bkg_color + `;">
-                    <h1>` + name + `</h1>
-                    <p>` + intro + `</p>
-                </div>
-            </div>`;
+        ms_block +=  
+        `<a class="col-md-3" ` + link + `>
+           <div class="thumbnail flipbox">
+             <div class="member-info front">
+               <img class="img-responsive" src="` + img + `" alt="` + name + `">
+               <h3>` + name + `<br ><small>` + alias + `</small></h3>
+               <div class="caption">
+                 <p>` + research_area + `</p>
+               </div>
+             </div>
+             <div class="member-info back" style="background-color:` + bkg_color + `;">
+               <h2>` + name + `</h2>
+               <p>` + intro + `</p>
+             </div>
+           </div>
+         </a>`;
     }
     $('div.ms-students > div:first-child').append(ms_block);
 });
@@ -47,14 +51,15 @@ $(function() {
     var und_block = '';
     for( i in members['Undergraduates']) {
         member = members['Undergraduates'][i];
-        und_block +=  `<div class="col-md-3 text-center">
-            <div class="thumbnail">
-                <div class="caption">
-                    <h4>` + member.name + `<br><small>` + member.alias + `</small></h4>
-                    <p>` + member.research + `</p>
-                </div>
-            </div>
-        </div>`;
+        und_block +=  `<div class="col-md-3">
+        <div class="thumbnail flipbox">
+            <div class="member-info front">
+                <h3>` + member.name + `<br><small>` + member.alias + `</small></h3>
+                        <div class="caption">
+                          <p>` + member.research + `</p>
+                        </div>
+                 </div></div>       
+                       </div>`;
     }
     $('div.undergrad > div:first-child').append(und_block);
 });

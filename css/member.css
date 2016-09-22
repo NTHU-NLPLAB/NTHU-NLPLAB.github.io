@@ -1,6 +1,7 @@
 .flipbox {
     position: relative;
-    text-align: center
+    text-align: center;
+    /*cursor: pointer;*/
 }
 
 .back {
@@ -18,16 +19,26 @@
     -webkit-transition: opacity .15s ease-in-out;
     -moz-transition: opacity .15s ease-in-out;
     transition: opacity .15s ease-in-out;
+    border-radius: 4px;
 }
 
 .back:hover {
     opacity: .95;
 }
 
-img.member-img {
+/*img.member-img {
     width: 250px;
-}
+}*/
 
 .back h1 {
     /*font-size: 36px; */
+}
+
+a:link {
+    text-decoration: none!important;
+}
+
+
+.page-header small {
+    padding-left: 5px;
 }
