@@ -9,6 +9,10 @@ var members = {
             name: 'Joanne Boisson',
             alias: '喬安娜',
         },
+        {
+            name: '陳志杰',
+            alias: 'jjc',
+        },
     ],
     'Research Assistants': [
         {
@@ -52,15 +56,6 @@ var members = {
             bkg_color: '#008B45',
             intro: '只是你遲到一千年！',
             link: 'https://youtu.be/83TjxZWFXVI',
-        },
-        {
-            name: '陳志杰',
-            alias: 'jjc',
-            research: '文法改錯、機器翻譯、同步樣式文法',
-            img: 'img/jjc.jpg',
-            bkg_color: '#36648B',
-            intro: '我是胖虎，我是孩子王',
-            link: 'https://youtu.be/Y-gGTPsLORY',
         },
         {
             name: '吳瑀瑄',
