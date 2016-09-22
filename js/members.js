@@ -92,10 +92,11 @@ var members = {
         {
             name: '羅右鈞',
             alias: 'Howard Lo',
-            research: '自然語言處理',
-            img: 'https://graph.facebook.com/100000574428847/picture?type=large',
-            bkg_color: '#1fc8db',
-            intro: 'Love design & coding. Web & mobile app developer. Interested in data science <3'
+            research: 'Deep Learning for NLP <3',
+            img: 'img/howard.jpeg',
+            bkg_color: '#0d5b3c',
+            intro: '在不斷的掙扎天空出現一道彩虹，在不斷的懷疑之後找到原來的我。',
+            link: 'https://www.youtube.com/watch?v=pbLJxFBOs80'
         }
     ],
     'Undergraduates': [
