@@ -268,6 +268,15 @@ const members = {
             intro: '',
             link: '',
         },
+        {
+            name: '郭芝瑜',
+            alias: 'cykuo',
+            research: '#',
+            img: 'img/cykuo.jpg',
+            color: 'red',
+            intro: '好餓',
+            link: '',
+        },
     ],
     'undergraduates': [
         // {
