@@ -274,7 +274,7 @@ const members = {
             research: '#',
             img: 'img/yizzy.jpg',
             color: 'blue',
-            intro: '我要當網紅',
+            intro: 'Yizzy come Yizzy go.',
             link: '',
         },
     ],
