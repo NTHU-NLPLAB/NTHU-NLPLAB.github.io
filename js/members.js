@@ -268,6 +268,15 @@ const members = {
             intro: '',
             link: '',
         },
+        {
+            name: '郭俊豪',
+            alias: 'Isaac',
+            research: '#',
+            img: 'img/isaac.jpg',
+            color: 'green',
+            intro: '史帝夫和戴夫都使用eToro投資金融市場',
+            link: 'https://www.facebook.com/isaac.0625',
+        },
     ],
     'undergraduates': [
         // {
