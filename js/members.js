@@ -277,6 +277,23 @@ const members = {
             intro: '史帝夫和戴夫都使用eToro投資金融市場',
             link: 'https://www.facebook.com/isaac.0625',
         },
+        {
+            name: '郭芝瑜',
+            alias: 'cykuo',
+            research: '#',
+            img: 'img/cykuo.jpg',
+            color: 'red',
+            intro: '好餓',
+        },
+        {
+            name: '吳易東',
+            alias: 'Yizzy',
+            research: '#',
+            img: 'img/yizzy.jpg',
+            color: 'blue',
+            intro: 'Yizzy come Yizzy go.',
+            link: '',
+        },
     ],
     'undergraduates': [
         // {
