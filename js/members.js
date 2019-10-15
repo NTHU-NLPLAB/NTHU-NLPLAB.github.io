@@ -67,6 +67,15 @@ const members = {
             intro: '只要游泳',
             link: '',
         },
+        {
+            name: '陳怡蓓',
+            alias: 'Erin',
+            research: '',
+            img: 'img/yipei.jpg',
+            color: 'blue',
+            intro: '',
+            link: '',
+         },
     ],
     'ms-students': [
         // {
