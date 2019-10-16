@@ -294,6 +294,15 @@ const members = {
             intro: 'Yizzy come Yizzy go.',
             link: '',
         },
+        {
+            name: '許瑋芩',
+            alias: 'Winnie',
+            research: '#',
+            img: 'img/winnie.jpg',
+            color: 'blue',
+            intro: 'Fearless',
+            link: '',
+        },
     ],
     'undergraduates': [
         // {
