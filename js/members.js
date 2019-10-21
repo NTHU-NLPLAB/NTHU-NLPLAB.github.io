@@ -321,6 +321,15 @@ const members = {
             intro: '十萬青年十萬肝，GG輪班救台灣',
             link: '',
         },
+        {
+            name: '紀冠名',
+            alias: 'sappy',
+            research: 'Reading Comprehension, Machine Translation',
+            img: 'img/sappy.jpg',
+            color: 'pink',
+            intro: '古明地覺最可愛！！',
+            link: 'https://sappy5678.github.io/hexo_blog/',
+        },
     ],
     'undergraduates': [
         // {
