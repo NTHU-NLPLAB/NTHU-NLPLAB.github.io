@@ -328,7 +328,7 @@ const members = {
             img: 'img/sappy.jpg',
             color: 'pink',
             intro: '古明地覺最可愛！！',
-            link: 'https://sappy5678.github.io/hexo_blog/',
+            link: 'https://blog.sappy.tw/',
         },
     ],
     'undergraduates': [
