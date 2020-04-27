@@ -76,6 +76,24 @@ const members = {
             intro: '買東西？上ebay！',
             link: '',
          },
+         {
+            name: '彭冠復',
+            alias: 'Elmon',
+            research: '#',
+            img: 'img/edmond.jpg',
+            color: 'grey    ',
+            intro: 'Elmo,Lemon,Elmon',
+            link: '',
+         },
+         {
+            name: '李冠霖',
+            alias: 'Simon',
+            research: '',
+            img: 'img/simon.jpg',
+            color: 'grey    ',
+            intro: '奇怪的成員增加了！',
+            link: '',
+         }
     ],
     'ms-students': [
         // {
