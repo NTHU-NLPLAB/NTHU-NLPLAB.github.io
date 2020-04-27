@@ -77,12 +77,21 @@ const members = {
             link: '',
          },
          {
+            name: '蔡名喬',
+            alias: 'Mictsai',
+            research: '#',
+            img: 'img/Mictsai.jpg',
+            color: 'red',
+            intro: '宅錯了嗎',
+            link: 'https://www.youtube.com/watch?v=PBplpprOdyw',
+         },
+         {
             name: '彭冠復',
             alias: 'Elmon',
             research: '#',
             img: 'img/edmond.jpg',
-            color: 'grey    ',
-            intro: 'Elmo,Lemon,Elmon',
+            color: 'grey',
+            intro: 'Elmo, Lemon, Elmon',
             link: '',
          },
          {
@@ -90,10 +99,10 @@ const members = {
             alias: 'Simon',
             research: '',
             img: 'img/simon.jpg',
-            color: 'grey    ',
+            color: 'grey',
             intro: '奇怪的成員增加了！',
             link: '',
-         }
+         },
     ],
     'ms-students': [
         // {
@@ -250,15 +259,15 @@ const members = {
         //     intro: '我愛獨角獸查理',
         //     link: 'https://www.youtube.com/watch?v=cMOHAcjlIWs',
         // },
-        {
-            name: '蔡名喬',
-            alias: 'Mictsai',
-            research: '#',
-            img: 'img/Mictsai.jpg',
-            color: 'red',
-            intro: '宅錯了嗎',
-            link: 'https://www.youtube.com/watch?v=PBplpprOdyw',
-        },
+        // {
+        //     name: '蔡名喬',
+        //     alias: 'Mictsai',
+        //     research: '#',
+        //     img: 'img/Mictsai.jpg',
+        //     color: 'red',
+        //     intro: '宅錯了嗎',
+        //     link: 'https://www.youtube.com/watch?v=PBplpprOdyw',
+        // },
         // {
         //     name: '賴怡惠',
         //     alias: 'Irene',
