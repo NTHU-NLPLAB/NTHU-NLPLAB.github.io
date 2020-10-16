@@ -365,7 +365,8 @@ const members = {
             color: 'brown',
             intro: 'Whole Foods, Whole People, Whole Planet.',
             link: '',
-        },
+        },{
+}
     ],
     'undergraduates': [
         // {
