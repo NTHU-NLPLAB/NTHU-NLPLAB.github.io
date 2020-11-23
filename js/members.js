@@ -370,7 +370,7 @@ const members = {
             name: '吳岱儒',
             alias: 'Stanley',
             research: '#',
-            img: 'img/Stanley.png',
+            img: 'img/stanley.jpg',
             color: 'brown',
             intro: 'QQ',
             link: '',
