@@ -26,10 +26,11 @@ $(function () {
 
 $(function () {
     add_block('postdoc');
+    add_block('ra');
     add_block('phd-students');
     add_block('ms-students');
-    add_block('ra');
     add_block('undergraduates');
+    add_block('partners');
 });
 
 $(function () {
