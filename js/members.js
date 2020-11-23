@@ -94,15 +94,24 @@ const members = {
 //             intro: '宅錯了嗎',
 //             link: 'https://www.youtube.com/watch?v=PBplpprOdyw',
 //          },
-         {
-            name: '彭冠復',
-            alias: 'Elmon',
-            research: '#',
-            img: 'img/edmond.jpg',
-            color: 'grey',
-            intro: 'Elmo, Lemon, Elmon',
-            link: '',
-         }
+            {
+               name: '彭冠復',
+               alias: 'Elmon',
+               research: '#',
+               img: 'img/edmond.jpg',
+               color: 'grey',
+               intro: 'Elmo, Lemon, Elmon',
+               link: '',
+            },
+	    {
+	       name: '林依蒨',
+	       alias: 'Nica',
+	       research: '#',
+	       img: 'img/nica.jpg',
+	       color:'blue',
+	       intro:'Hi',
+	       link:'https://nicalin.github.io',
+	    }
     ],
     'ms-students': [
         // {
