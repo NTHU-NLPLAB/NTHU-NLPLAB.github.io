@@ -31,6 +31,7 @@ $(function () {
     add_block('ms-students');
     add_block('undergraduates');
     add_block('partners');
+    add_block('alumni');
 });
 
 $(function () {
