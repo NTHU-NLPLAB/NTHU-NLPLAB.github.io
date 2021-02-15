@@ -117,11 +117,11 @@ const members = {
         {
             name: '郭俊豪',
             alias: 'Isaac',
-            research: '#',
+            research: 'Grammar Pattern, Front-end Web Developement',
             img: 'img/isaac.jpg',
             color: 'green',
             intro: '史帝夫和戴夫都使用eToro投資金融市場',
-            link: 'https://isaac0625.github.io/',
+            link: 'https://isaackwok.github.io/',
         },
         {
             name: '郭芝瑜',
