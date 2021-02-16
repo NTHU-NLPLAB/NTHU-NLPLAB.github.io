@@ -134,11 +134,11 @@ const members = {
         {
             name: '吳易東',
             alias: 'Yizzy',
-            research: '#',
+            research: 'Grammatical Error Correction',
             img: 'img/yizzy.jpg',
             color: 'blue',
-            intro: 'Yizzy come Yizzy go.',
-            link: '',
+            intro: 'Yizzy come, Yizzy go.',
+            link: 'https://wohchowshy.github.io/',
         },
         {
             name: '許瑋芩',
