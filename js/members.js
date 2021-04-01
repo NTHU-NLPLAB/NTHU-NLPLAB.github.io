@@ -229,6 +229,15 @@ const members = {
             color: 'green',
             intro: 'Elmo, Lemon, Elmon',
             link: '',
+        },
+        {
+            name: '張宜榛',
+            alias: 'yichen',
+            research: '#',
+            img: 'img/yichen.png',
+            color: 'teal',
+            intro: 'Hello 你好 こんにちは',
+            link: 'https://yakachang.github.io/',
         }
     ],
     'undergraduates': [
