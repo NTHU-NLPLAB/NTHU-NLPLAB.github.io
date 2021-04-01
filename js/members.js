@@ -102,15 +102,6 @@ const members = {
             color: 'blue',
             intro: 'Hi',
             link: 'https://nicalin.github.io',
-        },
-        {
-            name: '彭冠復',
-            alias: 'Elmon',
-            research: '#',
-            img: 'img/edmond.jpg',
-            color: 'grey',
-            intro: 'Elmo, Lemon, Elmon',
-            link: '',
         }
     ],
     'ms-students': [
@@ -228,6 +219,15 @@ const members = {
             img: 'img/joanna.png',
             color: 'blue',
             intro: 'It\'s not a bug; it\'s a FEATURE.¯\\_(ツ)_/¯',
+            link: '',
+        },
+        {
+            name: '彭冠復',
+            alias: 'Elmon',
+            research: '#',
+            img: 'img/edmond.jpg',
+            color: 'green',
+            intro: 'Elmo, Lemon, Elmon',
             link: '',
         },
         {
