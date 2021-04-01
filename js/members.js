@@ -229,6 +229,15 @@ const members = {
             color: 'blue',
             intro: 'It\'s not a bug; it\'s a FEATURE.¯\\_(ツ)_/¯',
             link: '',
+        },
+        {
+            name: '張宜榛',
+            alias: 'yichen',
+            research: '#',
+            img: 'img/yichen.png',
+            color: 'teal',
+            intro: 'Hello 你好 こんにちは',
+            link: 'https://yakachang.github.io/',
         }
     ],
     'undergraduates': [
