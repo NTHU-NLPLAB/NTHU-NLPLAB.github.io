@@ -102,7 +102,16 @@ const members = {
             color: 'blue',
             intro: 'Hi',
             link: 'https://nicalin.github.io',
-        }
+        },
+        {
+            name: '劉千瑜',
+            alias: 'Celeste',
+            research: '#',
+            img: 'img/celeste.jpeg',
+            color: 'green',
+            intro: '欲預約老師會談時間可來信聯絡',
+            link: 'mailto:cianyul@nlplab.cc',
+        },
     ],
     'ms-students': [
         {
