@@ -247,7 +247,16 @@ const members = {
             color: 'teal',
             intro: 'Hello 你好 こんにちは',
             link: 'https://yakachang.github.io/',
-        }
+        },
+        {
+            name: '陳麗光',
+            alias: 'likuang',
+            research: '#',
+            img: 'img/lkchen.jpg',
+            color: 'green',
+            intro: '^•ﻌ•^ฅ',
+            link: '',
+        },
     ],
     'undergraduates': [
         // {
