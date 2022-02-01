@@ -124,15 +124,6 @@ const members = {
             link: '',
         },
         {
-            name: '紀冠名',
-            alias: 'sappy',
-            research: 'Reading Comprehension, Machine Translation',
-            img: 'img/sappy.jpg',
-            color: 'pink',
-            intro: '古明地覺最可愛！！',
-            link: 'https://blog.sappy.tw/',
-        },
-        {
             name: '吳岱儒',
             alias: 'Stanley',
             research: '#',
@@ -523,6 +514,15 @@ const members = {
             color: 'brown',
             intro: 'Whole Foods, Whole People, Whole Planet.',
             link: '',
-        }
+        },
+        {
+            name: '紀冠名',
+            alias: 'sappy',
+            research: 'Reading Comprehension, Machine Translation',
+            img: 'img/sappy.jpg',
+            color: 'pink',
+            intro: '古明地覺最可愛！！',
+            link: 'https://blog.sappy.tw/',
+        },
     ]
 };
