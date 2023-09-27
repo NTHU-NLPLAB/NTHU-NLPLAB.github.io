@@ -129,7 +129,7 @@ const members = {
             research: '#',
             img: 'img/emma.jpg',
             color: 'Linen',
-            intro: '୧⃛(๑⃙⃘◡̈๑⃙⃘)୨⃛',
+            intro: 'Guten Tag!',
             link: '',
         },
         {
