@@ -97,7 +97,7 @@ function add_block(member_type) {
         const research_area = escapeHtml(member.research);
         const link = (member.link) ? `href="${encodeURI(member.link)}" target="_blank"` : '';
 
-        return `<div class="ui fluid card ${member.color}">
+        return `<div class="ui fluid card" style="box-shadow: 0 0 0 1px #D4D4D5,0 2px 0 0 ${member.color},0 1px 3px 0 #D4D4D5">
                     <div class="blurring dimmable image">
                         <a class="ui dimmer" ${link}>
                             <div class="content">
