@@ -130,7 +130,7 @@ const members = {
             img: 'img/gaby.jpg',
             color: '#F5DF4D',
             intro: "Hello there! I'm an international master's student from Guatemala, with a background in systems and informatics engineering, as well as full-stack web development. I'm also an energetic and friendly person who absolutely adores dogs!",
-            link: 'www.linkedin.com/in/gabriela-herrera-poggio',
+            link: 'https://www.linkedin.com/in/gabriela-herrera-poggio',
         },        
         {
             name: '李瑋芹',
@@ -171,11 +171,11 @@ const members = {
         {  
             name: '江詠筑',
             alias: 'Angie',
-            research: '#',
+            research: 'generative WSD',
             img: 'img/chuchu.jpg',
             color: '#88B04B',
             intro: '我是誰 我怎麼在這裡',
-            link: '',
+            link: 'https://imyungchu.github.io/',
         },
         {
             name: '林子謙',
